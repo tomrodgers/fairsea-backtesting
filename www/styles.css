@@ -1,0 +1,81 @@
+/* Base Styles for RShiny App using the custom color palette */
+
+/* Overall page background */
+body {
+  background-color: #ECE8E0; /* Neutral Off-White */
+  color: #3E4436; /* Base Earthy Olive for text */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Header styling */
+.header {
+  background-color: #3E4436; /* Earthy Olive */
+  color: #F4EAD0; /* Creamy Beige for contrast */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: #7D8A64; /* Muted Sage */
+  color: #F4EAD0; /* Creamy Beige */
+  padding: 10px;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #A65F3E; /* Burnt Sienna */
+  color: #F4EAD0; /* Creamy Beige */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #923835; /* Slightly darker for hover effect */
+}
+
+/* Panel or card backgrounds */
+.panel {
+  background-color: #F4EAD0; /* Creamy Beige */
+  border: 1px solid #7D8A64; /* Muted Sage border */
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #3E4436; /* Earthy Olive */
+  color: #F4EAD0; /* Creamy Beige */
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Links */
+a {
+  color: #A65F3E; /* Burnt Sienna */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Additional classes for content separation */
+.section-title {
+  font-size: 1.5em;
+  border-bottom: 2px solid #7D8A64;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.text-highlight {
+  background-color: #F4EAD0;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
