@@ -1,4 +1,5 @@
 library(shiny)
+library(rsconnect)
 
 # Define UI for application
 ui <- fluidPage(
@@ -18,13 +19,13 @@ ui <- fluidPage(
     
     # Sidebar panel
     sidebarPanel(
-      h3("Sidebar"),
+      h4("Sidebar"),
       p("This is the sidebar content.")
     ),
     
     # Main panel for displaying outputs or main content
     mainPanel(
-      h3("Main Content"),
+      h4("Main Content"),
       p("Hello World! This is the main content area.")
     )
   )
@@ -35,3 +36,5 @@ server <- function(input, output, session) {}
 
 # Run the application 
 shinyApp(ui, server)
+
+
